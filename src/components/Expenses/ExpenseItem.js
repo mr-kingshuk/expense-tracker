@@ -6,7 +6,7 @@ import './ExpenseItem.css';
 
 //need not necessary to name it props(also called attributes)
 //in props we get the key value pair of the attributes of teh TAG
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
     
     //forwarding data from props to children components or using the data
 

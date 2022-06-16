@@ -12,7 +12,7 @@ import './Card.css';
 
 //THING 2: 
 //now since Card is a custom component so className for styling used in parent container is an attribute passed as props 
-function Card(props){
+const Card = (props) => {
 
     const classes = "card "+ props.className;
     return(
