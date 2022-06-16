@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ExpenseDate from './ExpenseDate';
 import Card from './Card';
 import './ExpenseItem.css';
@@ -7,7 +9,6 @@ import './ExpenseItem.css';
 function ExpenseItem(props) {
     
     //forwarding data from props to children components or using the data
-
 
     return (
         //now here we are getting the styles of Card component

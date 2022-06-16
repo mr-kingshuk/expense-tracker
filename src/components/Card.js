@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './Card.css';
 
 //component that acts like a wrapper around the actual components 
