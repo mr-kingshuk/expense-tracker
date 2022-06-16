@@ -7,9 +7,11 @@ import './Card.css';
 
 //Doing 2 things
 
-//THING 1: here since we  are using a custom components as wrapper, we need to pass all the childrwn components as props. 
+//THING 1: 
+//here since we  are using a custom components as wrapper, we need to pass all the childrwn components as props. 
 
-//THING 2: now since Card is a custom component so className for styling used in parent container is an attribute passed as props 
+//THING 2: 
+//now since Card is a custom component so className for styling used in parent container is an attribute passed as props 
 function Card(props){
 
     const classes = "card "+ props.className;
