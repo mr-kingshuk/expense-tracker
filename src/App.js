@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div>
       <NewExpense onAddExpense = {addExpenseHandler}/>
-      <Expenses expenses={expenses}/>  
+      <Expenses  expenses={expenses}/>  
 
 
 
