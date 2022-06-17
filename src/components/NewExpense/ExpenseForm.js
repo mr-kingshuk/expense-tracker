@@ -2,7 +2,7 @@ import React, { useSate, useState } from 'react';
 
 import './ExpenseForm.css';
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
 
     //using state here to detach the variable from the lifecycel of teh components, so that even if the components are reevaluated the variable still exixts.
 
@@ -67,6 +67,9 @@ const ExpenseForm = () => {
         setEnteredTitle('');
         setEnteredAmount('');
         setEnteredDate('');
+
+        //passing it to parent component
+        props.onSaveExpenseData(expenseData);
     };
 
     return (
