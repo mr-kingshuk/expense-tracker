@@ -9,12 +9,12 @@ import './ExpenseItem.css';
 const ExpenseItem = (props) => {
     //Directly inside component
     //returns 2 values and receives an INITIAL value
-    const [title, setTitle] = useState(props.expenseTitle);
+    // const [title, setTitle] = useState(props.expenseTitle);
     
-    const clickHandler = ()=>{
-        // instead of directly changing the title variable we call teh state changing function
-        setTitle('Updated');
-    };
+    // const clickHandler = ()=>{
+    //     // instead of directly changing the title variable we call teh state changing function
+    //     setTitle('Updated');
+    // };
 
     //forwarding data from props to children components or using the data
     return (
@@ -28,7 +28,7 @@ const ExpenseItem = (props) => {
                 <div className='expense-item__price'>${props.expenseAmount}</div>
             </div>
             
-            <button onClick = {clickHandler}>Change Title</button>
+            {/* <button onClick = {clickHandler}>Change Title</button> */}
         </Card>
     );
 }
